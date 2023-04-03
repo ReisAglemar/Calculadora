@@ -1,0 +1,14 @@
+26/06/22
+
+    O objetivo é criar uma calculadora das quatro operações simples.
+    Usaremos JS para realizar os calculos e as lógicas operacionais.
+
+    SITUAÇÃO ATUAL: O JS está sendo importado ao HTML, testei utilizando uma
+    var e um console.log do navegador. Porém não estou conseguinfo passar ao JS 
+    os valores inseridos em HTML. A propriedade document.getElementById não funciona
+    da maniera espera. Penso que é um problema em JS, não há uma var para carregar, mas
+    quando criada a var ainda assim não carrega os valores.
+
+    POSSÍVEL SOLUÇÃO: Talvez a var esteja sendo criada de maneira erronêa...
+
+     

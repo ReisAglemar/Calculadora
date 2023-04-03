@@ -1,0 +1,172 @@
+/*
+
+    INFROMAÇÕES
+        CORES
+            BACKGROUND: #304da3;
+            BOTÃO: #89d12b;
+            BOTÃO ATIVADO: #547c20;
+            CARACTER BOTÃO: #1c2e64;
+            INFORMAÇÕES SOLTAS: #f7f7f7;
+        
+        FONTES WEIGHT
+            REGULAR: 400;
+            MEDIUM: 500;
+            BOLD: 700;
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    background-color: #304da3;
+    /*overflow: hidden;*/
+}
+
+
+#faixaTopo {
+    padding: 1vh 0 1vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #89d12b;
+}
+
+
+#tituloChamada {
+    font-weight: 500;
+    color: #1c2e64;
+    margin: 0 2vw 0 2vw;
+}
+
+
+#linksNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+#linkCapsula {
+    box-sizing: content-box;
+    margin: 0 2vw 0 2vw;
+    border-radius: 7px;
+}
+
+
+#linkCapsula:hover {
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.8);
+    background-color: #547c20;
+    transition: 0.4s;
+}
+
+#efeito {
+    padding: 5px;
+}
+
+
+#link {
+    color: #1c2e64;
+}
+
+
+#base {
+    border-radius: 8px;
+    margin: 4vh auto 4vh auto;
+    width: 252px;
+    height: 414px;
+    background-color: #1c2e64;
+    box-shadow: 5px 8px 12px rgba(0, 0, 0, 0.8);
+}
+
+
+#espacoTela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#tela {
+    padding: 6px;
+    margin: 12px auto;
+    width: 230px;
+    height: 136px;
+    background-color: #f7f7f7;
+    border-radius: 5%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+
+#resultado {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+#botoes {
+    margin: 3px auto;
+    width: 230px;
+    height: 240px;
+    display: flex;
+    align-items: space-between;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#linha {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+
+#botao {
+    width: 52px;
+    height: 38px;
+    border-radius: 25%;
+    border: 2px outset #304da3;
+    font-size: 17px;
+    font-weight: 500;
+    color: #1c2e64;
+    background-color: #89d12b;
+}
+
+
+#botao:hover {
+    background-color: #547c20;
+    transition: 0.3s;
+}
+
+
+#botao:active {
+    border: 2px inset #1c2e64;
+
+}
+
+
+#fim {
+    width: 70vw;
+    margin: 3vh auto;
+    border-top: 1px solid #89d12b
+}
+
+
+#fimTexto {
+    margin-top: 3vh;
+    color: #f7f7f7;
+    text-align: center;
+}

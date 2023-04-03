@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+
+<head>
+    <title>Calculadora V_2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sua calculadora de bolso">
+    <meta name="keywords" content="calculadora, fácil, leva, rápida, confiǘel">
+    <meta name="robots" content="noindex">
+    <meta name="robots" content="nofollow">
+    <meta name="author" content="Reis">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favIcon.png">
+</head>
+
+<body>
+
+    <header id="faixaTopo">
+
+        <h1 id="tituloChamada">Sua calculadora</h1>
+
+        <Nav id="linksNav">
+            <section id="linkCapsula">
+                <div id="efeito">
+                    <a id="link" href="#">Home</a>
+                </div>
+            </section>
+
+
+            <section id="linkCapsula">
+                <div id="efeito">
+                    <a id="link" href="#">Quem Somos</a>
+                </div>
+            </section>
+
+
+            <section id="linkCapsula">
+                <div id="efeito">
+                    <a id="link" href="#">Valores</a>
+                </div>
+            </section>
+
+
+            <section id="linkCapsula">
+                <div id="efeito">
+                    <a id="link" href="#">Objetivos</a>
+                </div>
+            </section>
+
+
+            <section id="linkCapsula">
+                <div id="efeito">
+                    <a id="link" href="#">Patrocinadores</a>
+                </div>
+            </section>
+
+
+            <section id="linkCapsula">
+                <div id="efeito">
+                    <a id="link" href="#">Faça Parte</a>
+                </div>
+            </section>
+        </Nav>
+
+
+    </header>
+
+
+    <main id="base">
+
+        <section id="espacoTela">
+            <div id="tela">
+                <p id="resultado"></p>
+            </div>
+        </section>
+
+
+        <section id="botoes">
+
+            <!--<section id="linha">                
+                <div> <input type="button" value="^" id="botao"> </div>              
+                <div> <input type="button" value="&radic;" id="botao"> </div>
+                <div> <input type="button" value="&#9001; &#9002;" id="botao"> </div>
+                <div> <input type="button" value="&#37;" id="botao" > </div>
+            </section>-->
+
+            <section id="linha">
+                <div> <input type="button" value="AC" id="botao" onclick="apagarTudo()" > </div>
+                <div> <input type="button" value="&pi;" id="botao" onclick="botao(3.1415)"> </div>
+                <div> <input type="button" value="!" id="botao" onclick="fatorial()"> </div>                
+                <div> <input type="button" value="&#247;" id="botao" onclick="botao('/')"> </div>
+            </section>
+
+            <section id="linha">
+                <div> <input type="button" value="7" id="botao" onclick="botao(7)"> </div>
+                <div> <input type="button" value="8" id="botao" onclick="botao(8)"> </div>
+                <div> <input type="button" value="9" id="botao" onclick="botao(9)"> </div>
+                <div> <input type="button" value="&#215;" id="botao" onclick="botao('*')"> </div>
+            </section>
+
+            <section id="linha">
+                <div> <input type="button" value="4" id="botao" onclick="botao(4)"> </div>
+                <div> <input type="button" value="5" id="botao" onclick="botao(5)"> </div>
+                <div> <input type="button" value="6" id="botao" onclick="botao(6)"> </div>
+                <div> <input type="button" value="&#8722;" id="botao" onclick="botao('-')"> </div>
+            </section>
+
+            <section id="linha">
+                <div> <input type="button" value="1" id="botao" onclick="botao(1)"> </div>
+                <div> <input type="button" value="2" id="botao" onclick="botao(2)"> </div>
+                <div> <input type="button" value="3" id="botao" onclick="botao(3)"> </div>
+                <div> <input type="button" value="&#43;" id="botao" onclick="botao('+')"> </div>
+            </section>
+
+            <section id="linha">
+                <div> <input type="button" value="0" id="botao" onclick="botao(0)"> </div>
+                <div> <input type="button" value="&#8218;" id="botao" onclick="botao('.')"> </div>
+                <div> <input type="button" value="&lArr;" id="botao" onclick="apagarUltimoDigito()"> </div>
+                <div> <input type="button" value="&#61;" id="botao" onclick="resultado()"> </div>
+            </section>
+
+
+
+        </section>
+    </main>
+
+
+    <footer id="fim">
+        <h5 id="fimTexto">Reis&trade;</h5>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

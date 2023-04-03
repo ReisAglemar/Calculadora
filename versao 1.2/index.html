@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="js/js.js"></script>
+</head>
+
+<body>
+
+    <form>
+
+        <fieldset>
+
+            <legend>CALCULADORA</legend>
+
+            <div class="valores">
+
+                <h3>1- Insira os valores para A e B</h3>
+
+                <input type="number" id="valorA" placeholder="Insira Um Valor Para A">
+                <input type="number" id="valorB" placeholder="Insira Um Valor Para B">
+
+            </div>
+            <!-- class="valores" -->
+
+            <div class="operacao">
+
+                <h3>2- Selecione a operação </h3>
+
+                <div>
+                    <input type="radio" id="multiplicacao" name="operação" value="x"><span> Multiplcação
+                        (A*B)</span>
+                </div>
+
+                <div>
+                    <input type="radio" id="divisao" name="operação" value="/"><span> Divisão (A/B)</span>
+                </div>
+
+                <div>
+                    <input type="radio" id="adicao" name="operação" value="+"><span> Adição (A+B)</span>
+                </div>
+
+                <div>
+                    <input type="radio" id="subtracao" name="operação" value="-"><span> Subtração (A-B)</span>
+                </div>
+
+            </div>
+            <!-- class="operacao"> -->
+
+            <div class="botoes">
+
+                <a href="index.html"><input type="button" value="Reset"></a>
+                <input type="button" value="Calcular" onclick="calcular()">
+
+            </div>
+            <!-- class="botoes" -->
+
+            <div class="resultado">
+
+                <h3>O resultado é: <span id="resultado"></span></h3>
+
+            </div>
+            <!-- class="resultado" -->
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

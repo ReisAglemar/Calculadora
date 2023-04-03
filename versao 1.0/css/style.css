@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+  /*  text-decoration: none;*/
+    font-size: 100%;
+}
+
+.instrucao{
+    margin: 5px;
+}
+
+.input{
+    margin-top: 15px;
+    text-align: center;
+    
+}
+
+input[type="number"]{
+    width: 100px;
+}
+
+input[type=button]{
+    color: red;
+    width: 75px;
+    
+    
+}
